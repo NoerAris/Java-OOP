@@ -54,6 +54,12 @@ public class ArrayList {
         System.out.println("Keranjang dengan index 0 : "+keranjang.get(0));
         //Cek ukuran List keranjang
         System.out.println("Jumlah isi keranjang : "+keranjang.size());
+        
+        for(Object o:keranjang){
+            if(o instanceof String){
+                System.out.println(o);
+            }
+        }
        
     }
     
